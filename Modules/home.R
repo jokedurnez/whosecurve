@@ -8,9 +8,9 @@ home_ui <- function(id) {
                      box(
                          width = 12,
                          title = "Whose Curve is This Curve?",
-                         p("This dashboard is based on a medium post by Jacob !", tags$a(href = "https://medium.com/@jacob.denolf/hi-belgium-how-is-your-curve-doing-today-1f9c380de491","You can find it here !")
+                         p("This dashboard is based on a medium post by Jacob Denolf !", tags$a(href = "https://medium.com/@jacob.denolf/hi-belgium-how-is-your-curve-doing-today-1f9c380de491","You can find it here !")
                      ),
-                     p("THe data is taken from ", tags$a(href = "https://github.com/CSSEGISandData/COVID-19"), "Johns Hopkins CSSE." )
+                     p("THe data is taken from ", tags$a(href = "https://github.com/CSSEGISandData/COVID-19", "Johns Hopkins CSSE." ))
                      ),
                      box(
                          width = 12,
